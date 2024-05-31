@@ -20,6 +20,6 @@ public class KendaraanTest {
         assertFalse("Awalnya sepeda motor tidak boleh jalan", motor.jalan());
 
         motor.isiTangkiFull();
-        assertTrue("Sepeda motor harusnya bisa jalan setelah isi tangki", motor.jalan());
+        assertTrue("Sepeda motor harusnya tidak bisa jalan setelah isi tangki", motor.jalan());
     }
 }
